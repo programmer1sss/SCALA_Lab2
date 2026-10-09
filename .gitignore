@@ -1,0 +1,27 @@
+# ===== Scala / sbt =====
+target/
+project/target/
+project/project/
+.bsp/
+
+# ===== Scala CLI / Bloop / Metals =====
+.scala-build/
+.bloop/
+.metals/
+metals.sbt
+
+# ===== Компільовані файли =====
+*.class
+*.tasty
+*.semanticdb
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Логи =====
+*.log
